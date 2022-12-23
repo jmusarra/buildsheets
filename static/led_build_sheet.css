@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    background-color: #333333;
+    color: #EEEEEE;
+}
+
+h1 {
+
+}
+
+div.inputs {
+    display: table;
+}
+
+div.cell {
+    display: table-cell;
+}
+
+label {
+    font-size: 1em;
+}
+
+form input { 
+    display: inline!important;
+    width: 500;
+    margin-left: 1em;
+    margin-right: 3em;
+    line-height: 1.5;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   }
+
+form input[type=date] {
+    width:  auto;
+    margin-right: 4em;
+}
+
+div.header {
+    width: 100%;
+    border-top: 7px solid #bcbcbc;
+    border-bottom: 7px solid #bcbcbc;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>LED Build Sheet</title>
+    <link rel="stylesheet" type="text/css" href="static/led_build_sheet.css">
+</head>
+
+<body>
+    <h1 style="text-align: center">PRG STLV - Scenic LED Build Sheet</h1><br>
+    <div class="header">
+    <div class="inputs">
+    <form name="submit" action="/cgi-bin/submit.py" method="get" action="">
+        <div class="cell"><label for="show_name" style="display: block">Show Name:</label></div>
+        <div class="cell"><input name="show_name" id="show_name" type="text" width="55" minlength="1" maxlength="64" height="6"></div>
+        <div class="cell"><label for="client" style="display: block">Client:</label></div>
+        <div class="cell"><input name="client" id="client" type="text" width="55" minlength="1" maxlength="64" height="6"></div><br>
+        <div class="cell"><label for="ship_date" style="display: block;">Ship Date:</label></div>
+        <div class="cell"><input name="ship_date" id="ship_date" type="date"></div>
+        <div class="cell"><label for="venue" style="display: block";>Venue:</label></div>
+        <div class="cell"><input name="venue" id="venue" type="text"></div>
+    </div>
+</div>
+        <button name="submit" id="submit" type="submit" text="Submit">
+    </form>
+</body>
+</html>
